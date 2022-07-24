@@ -64,4 +64,116 @@
 
 .sectionOne__img--blackPiano {
   margin-top: 25px;
+}
+
+.sectionTwo {
+  background-color: #858585;
+  background: linear-gradient(180deg, #ffffff 0%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 76.04%, #ffffff 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionTwo__title--first {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.sectionTwo__ctnMedia {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+
+.sectionTwo__ctnMedia--video {
+  height: 190px;
+  width: 320px;
+  opacity: 0.5;
+  position: absolute;
+  top: 10%;
+  z-index: 0;
+}
+
+.sectionTwo__ctnMedia--img {
+  position: absolute;
+  top: 10%;
+  z-index: 1;
+  width: 250px;
+  height: 220px;
+}
+
+.sectionTwo__title--second {
+  margin-top: 25px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+}
+
+.sectionTwo__stars {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.sectionTwo__paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.sectionTwo__title--three {
+  margin-top: 20px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  font-family: "Abril Fatface", cursive;
+  letter-spacing: 5%;
+  font-weight: normal;
+}
+
+.sectionTwo__paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+.sectionTwo__list-white {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px 20px 30px 20px;
+  color: #ffffff;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+.sectionTwo__btn {
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  padding: 3px 10px;
+  border: solid 1px;
+  width: 150px;
 }/*# sourceMappingURL=style.css.map */
