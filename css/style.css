@@ -160,10 +160,6 @@
   color: #ffffff;
 }
 
-a:visited {
-  color: #ffffff;
-}
-
 .sectionTwo__btn {
   color: #ffffff;
   background-color: #000000;
@@ -176,6 +172,102 @@ a:visited {
   padding: 3px 10px;
   border: solid 1px;
   width: 150px;
+}
+
+.sectionThree {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sectionThree__Title {
+  font-family: "Abril Fatface", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.sectionThree__cards {
+  width: 260px;
+  background-color: #ffffff;
+  color: #000000;
+  border: solid 1px black;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.sectionThree__ctnImg-blanco {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#guion {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+.sectionThree__cardTitle {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+a:visited {
+  color: black;
+}
+
+.sectionThree__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.sectionThree__ctnsection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sectionThree__cardBtn {
+  width: 75%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.sectionThree__circle {
+  background-color: #000000;
+  border-radius: 10px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionThree__icon {
+  height: 250%;
+  width: 250%;
+}
+
+.sectionThree__btn {
+  margin: 20px 0;
+  width: 75%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .sectionFour {
