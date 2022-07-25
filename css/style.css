@@ -340,4 +340,20 @@ a:visited {
   border: solid 1px;
   width: 90%;
   margin: 0 5% 0 5%;
+}
+
+.sectionFive {
+  background: linear-gradient(180deg, #ffffff 0%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 76.04%, #ffffff 100%);
+}
+
+.sectionFive__title {
+  text-align: center;
+  margin: 0px 0 20px 0;
+  color: #000000;
+  font-family: "Abril Fatface", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 25px 15px;
 }/*# sourceMappingURL=style.css.map */
