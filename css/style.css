@@ -344,6 +344,15 @@ a:visited {
 
 .sectionFive {
   background: linear-gradient(180deg, #ffffff 0%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 76.04%, #ffffff 100%);
+  height: 548px;
+}
+
+.sectionFive__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 450px;
+  align-items: center;
 }
 
 .sectionFive__title {
@@ -395,4 +404,20 @@ a:visited {
 .sectionFive__letter {
   margin-left: 30px;
   font-size: 30px;
+}
+
+.sectionFive__flags--right {
+  background-color: #000000;
+  color: #ffffff;
+  width: 288px;
+  height: 103px;
+  border-radius: 14.2361px 88.9758px 88.9758px 14.2361px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
 }/*# sourceMappingURL=style.css.map */
