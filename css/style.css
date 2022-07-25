@@ -340,4 +340,84 @@ a:visited {
   border: solid 1px;
   width: 90%;
   margin: 0 5% 0 5%;
+}
+
+.sectionFive {
+  background: linear-gradient(180deg, #ffffff 0%, rgba(0, 0, 0, 0.75) 37.19%, rgba(0, 0, 0, 0.75) 76.04%, #ffffff 100%);
+  height: 548px;
+}
+
+.sectionFive__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 450px;
+  align-items: center;
+}
+
+.sectionFive__title {
+  text-align: center;
+  margin: 0px 0 20px 0;
+  color: #000000;
+  font-family: "Abril Fatface", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 25px 15px;
+}
+
+.sectionFive__flags--left {
+  background-color: #000000;
+  color: #ffffff;
+  width: 288px;
+  height: 103px;
+  border-radius: 88.9758px 14.2361px 14.2361px 88.9758px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.sectionFive__circle {
+  width: 88.98px;
+  height: 88.98px;
+  border-radius: 50%;
+  border: 0.889758px solid #ffffff;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionFive__img--golden {
+  width: 50%;
+  height: 65%;
+}
+
+.sectionFive__letter {
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+.sectionFive__flags--right {
+  background-color: #000000;
+  color: #ffffff;
+  width: 288px;
+  height: 103px;
+  border-radius: 14.2361px 88.9758px 88.9758px 14.2361px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
 }/*# sourceMappingURL=style.css.map */

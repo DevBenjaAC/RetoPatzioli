@@ -164,12 +164,11 @@
 // Section three
 .sectionThree {
   background-color: #ffffff;
-  
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-
 }
 .sectionThree__Title {
   font-family: "Abril Fatface", cursive;
@@ -179,7 +178,7 @@
   line-height: 32px;
   text-align: center;
 }
-.sectionThree__cards{
+.sectionThree__cards {
   width: 260px;
   background-color: #ffffff;
   color: #000000;
@@ -188,46 +187,45 @@
   padding: 10px;
   margin-top: 30px;
 }
-.sectionThree__ctnImg-blanco{
+.sectionThree__ctnImg-blanco {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-bottom: 20px;
 }
-#guion{
+#guion {
   text-align: center;
   font-size: 16px;
   margin-bottom: 20px;
-  opacity: .5;
+  opacity: 0.5;
 }
-.sectionThree__cardTitle{
+.sectionThree__cardTitle {
   font-size: 16px;
   margin-bottom: 20px;
 }
 a:visited {
   color: black;
 }
-.sectionThree__list{
+.sectionThree__list {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin-bottom: 20px;
 }
-.sectionThree__ctnsection{
+.sectionThree__ctnsection {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  
 }
-.sectionThree__cardBtn{
+.sectionThree__cardBtn {
   width: 75%;
   height: 40px;
   border-radius: 10px;
   background-color: #ffffff;
   color: #000000;
 }
-.sectionThree__circle{
+.sectionThree__circle {
   background-color: #000000;
   border-radius: 10px;
   height: 40px;
@@ -236,11 +234,11 @@ a:visited {
   justify-content: center;
   align-items: center;
 }
-.sectionThree__icon{
+.sectionThree__icon {
   height: 250%;
   width: 250%;
 }
-.sectionThree__btn{
+.sectionThree__btn {
   margin: 20px 0;
   width: 75%;
   height: 40px;
@@ -248,7 +246,7 @@ a:visited {
   background-color: #000000;
   color: #ffffff;
 }
-// section four 
+// section four
 
 .sectionFour {
   background-image: url("../images/darius-soodmand-F8E2tks5N04-unsplash\ 1.png");
@@ -313,4 +311,85 @@ a:visited {
   border: solid 1px;
   width: 90%;
   margin: 0 5% 0 5%;
+}
+
+// SECTION 5//
+
+.sectionFive {
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    rgba(0, 0, 0, 0.75) 37.19%,
+    rgba(0, 0, 0, 0.75) 76.04%,
+    #ffffff 100%
+  );
+  height: 548px;
+}
+.sectionFive__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 450px;
+  align-items: center;
+}
+.sectionFive__title {
+  text-align: center;
+  margin: 0px 0 20px 0;
+  color: #000000;
+  font-family: "Abril Fatface", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 25px 15px;
+}
+.sectionFive__flags--left {
+  background-color: #000000;
+  color: #ffffff;
+  width: 288px;
+  height: 103px;
+  border-radius: 88.9758px 14.2361px 14.2361px 88.9758px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+}
+.sectionFive__circle {
+  width: 88.98px;
+  height: 88.98px;
+  border-radius: 50%;
+  border: 0.889758px solid #ffffff;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.sectionFive__img--golden {
+  width: 50%;
+  height: 65%;
+}
+.sectionFive__letter{
+  margin-left: 30px;
+  font-size: 30px;
+}
+.sectionFive__flags--right {
+  background-color: #000000;
+  color: #ffffff;
+  width: 288px;
+  height: 103px;
+  border-radius: 14.2361px 88.9758px 88.9758px 14.2361px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
 }
