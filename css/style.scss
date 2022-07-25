@@ -335,3 +335,38 @@ a:visited {
   line-height: 32px;
   margin: 25px 15px;
 }
+.sectionFive__flags--left {
+  background-color: #000000;
+  color: #ffffff;
+  width: 288px;
+  height: 103px;
+  border-radius: 88.9758px 14.2361px 14.2361px 88.9758px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+}
+.sectionFive__circle {
+  width: 88.98px;
+  height: 88.98px;
+  border-radius: 50%;
+  border: 0.889758px solid #ffffff;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.sectionFive__img--golden {
+  width: 50%;
+  height: 65%;
+}
+.sectionFive__letter{
+  margin-left: 30px;
+  font-size: 30px;
+}
