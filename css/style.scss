@@ -523,3 +523,40 @@ span{
 
     }
   }
+  @media (min-width: 1024px){
+    .sectionTwo__ctnMedia {
+      height: 700px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      align-items: center;
+    }
+    .sectionTwo__ctnMedia--video {
+      height: 700px;
+      width: 1024px;
+      opacity: 0.5;
+      position: absolute;
+      z-index: 0;
+    }
+    .sectionTwo__ctnMedia--img {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      z-index: 1;
+      width: 500px;
+      height: 440px;
+    }
+    .sectionTwo__title--first{
+      font-size: 40px;
+    }
+    .sectionTwo{
+      position: relative;
+    }
+    .sectionTwo__ctn{
+      position: absolute;
+      top: 70%;
+      left: 30%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+  }
