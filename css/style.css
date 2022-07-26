@@ -527,4 +527,111 @@ span {
   font-size: 18px;
   line-height: 32px;
   margin: 25px 15px;
+}
+
+@media (max-width: 320px) and (orientation: portrait) {
+  .header__nav {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .sectionOne__title {
+    font-size: 56px;
+  }
+}
+@media (min-width: 1024px) {
+  .sectionOne__containerBtn {
+    justify-content: center;
+    scale: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .sectionOne__img--blackPiano {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+@media (min-width: 1024px) {
+  .sectionTwo__ctnMedia {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+  }
+  .sectionTwo__ctnMedia--video {
+    height: 700px;
+    width: 1024px;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 0;
+  }
+  .sectionTwo__ctnMedia--img {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    z-index: 1;
+    width: 500px;
+    height: 440px;
+  }
+  .sectionTwo__title--first {
+    font-size: 40px;
+  }
+  .sectionTwo {
+    position: relative;
+  }
+  .sectionTwo__ctn {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  .sectionThree__3Cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .sectionThree__cards {
+    margin: 20px;
+  }
+  .sectionFour {
+    background-image: url("../images/imagenCompleta.png");
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 1024px) {
+  .sectionFour__form {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .sectionFour__label {
+    color: #ffffff;
+  }
+  .sectionFour__input {
+    background: rgba(0, 0, 0, 0.65);
+    width: 50%;
+    height: 30px;
+    color: white;
+    margin: 5px 5px 5px 0;
+  }
+  .sectionFour__input--tellme {
+    width: 100%;
+    height: 100px;
+    color: white;
+  }
+  .sectionFour__btn {
+    width: 80%;
+    margin: 0 0 0 5%;
+  }
 }/*# sourceMappingURL=style.css.map */
